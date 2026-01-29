@@ -39,7 +39,7 @@ Platforms:   HackTheBox, TryHackMe, BTLO
 ### 📫 Контакты
 
 - **GitHub:** [@byemoto](https://github.com/byemoto)
-- **Telegram:** @evgeny_ober
+- **Telegram:** @evgeny_sec
 - Открыт к обратной связи и сотрудничеству!
 
 ---
