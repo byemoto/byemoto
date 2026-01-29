@@ -1,16 +1,21 @@
-## Hi there 👋
+# 👋 Привет! Я изучаю Blueteam
 
-<!--
-**byemoto/byemoto** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🛡️ Фокус: SOC Analysi /  Threat Detectio / AppSec
 
-Here are some ideas to get you started:
+Документирую свой путь обучения в кибербезопасности и делюсь знаниями.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🎯 Что я изучаю
+
+- 🔍 **Threat Detection & Hunting** - создание detection rules
+- 📊 **SIEM** - Splunk, Elastic Security
+- 🚨 **Incident Response** - анализ и реагирование
+- 🔬 **Log Analysis** - Windows Event Logs, Sysmon
+- 🌐 **Network Security** - traffic analysis, IDS/IPS
+
+### 📫 Связь
+
+- GitHub: [@byemoto](https://github.com/byemoto)
+- TG: @evgeny_ober
+
+
+-
