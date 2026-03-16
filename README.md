@@ -27,4 +27,4 @@ Languages:  Python, Bash
 
 ## Контакты
 
-Telegram: @evgeny_sec
+Telegram: @evgeny_ober
