@@ -1,49 +1,30 @@
-## 👋 Привет! Я изучаю кибербезопасность
+# byemoto
 
-## 🛡️ Фокус: SOC Analyst | Threat Detection | AppSec
+Занимаюсь информационной безопасностью — в основном detection engineering и AppSec. Интересует связка между тем как атакуют и тем как это детектировать и предотвращать.
 
-Документирую свой путь обучения в кибербезопасности и делюсь знаниями.
+## Чем занимаюсь
 
-### 🎯 Что я изучаю
+**Detection Engineering** — пишу правила для SIEM систем (Sigma, MaxPatrol, R-Vision). Стараюсь идти от практики: разбираю реальные техники атак, смотрю какие артефакты остаются в логах, потом пишу правило. Часть материала беру с HTB машин.
 
-- 🔍 **Threat Detection & Hunting** - создание detection rules
-- 📊 **SIEM** - Splunk, ELK Stack
-- 🚨 **Incident Response** - анализ и реагирование на инциденты
-- 🔬 **Log Analysis** - Windows Event Logs, Sysmon
-- 🌐 **Network Security** - анализ трафика, IDS/IPS
-- 🔐 **Application Security** - SAST/DAST, secure code review
+**DevSecOps** — поднял стенд для практики: Gitea + Woodpecker CI + сканеры (Gitleaks, Semgrep, Trivy) + DefectDojo для управления находками. Подключил Anthropic API через n8n — Claude анализирует результаты сканирования и объясняет находки с примерами исправления. Интересно что уязвимости которые Semgrep находит в коде — это те же техники MITRE ATT&CK которые детектирую через SIEM правила.
 
-### 📚 Текущие проекты
+**HackTheBox** — прохожу машины с упором на Blue Team: что оставляет след в логах, какие IOC можно вытащить, как это можно было задетектировать. Часть разборов конвертирую в detection rules.
 
-- [ ] **SOC Detection Rules** - библиотека Sigma/Splunk правил
-- [ ] **HTB Writeups** - разбор машин с точки зрения Blue Team
-- [ ] **Incident Response Playbooks** - сценарии реагирования
+## Репозитории
 
-### 🏆 Прогресс обучения
+**[devsecops-stand](https://github.com/byemoto/devsecops-stand)** — DevSecOps стенд с CI/CD pipeline, SSO через Authentik и AI-анализом находок
 
-- **HackTheBox:** Начинаю путь
-- **Detection Rules:** 0/25 (цель на 2 месяца)
-- **CTF:** Активно участвую
-- **Проекты:** В разработке
+**[soc-detection-rules](https://github.com/byemoto/soc-detection-rules)** — detection rules для Sigma, MaxPatrol и R-Vision на основе разбора атак
 
-### 🛠️ Технологии
-```text
-SIEM:        Splunk, Elastic Stack
-Detection:   Sigma, YARA, Snort
-Languages:   Python, Bash, PowerShell
-Tools:       Wireshark, Sysmon, Zeek, Burp Suite
-OS:          Windows, Linux, macOS
-Platforms:   HackTheBox, TryHackMe, BTLO
+## Стек
+
+```
+SIEM:       MaxPatrol, R-Vision, Sigma
+AppSec:     Semgrep, Gitleaks, Trivy, Burp Suite
+DevOps:     Docker, Gitea, Woodpecker CI
+Languages:  Python, Bash
 ```
 
-### 📫 Контакты
+## Контакты
 
-- **GitHub:** [@byemoto](https://github.com/byemoto)
-- **Telegram:** @evgeny_sec
-- Открыт к обратной связи и сотрудничеству!
-
----
-
-💡 *"Учусь думать как атакующий, чтобы лучше защищать"*
-
-📌 **Статус:** Активно ищу возможности для стажировки/junior позиции в SOC
+Telegram: @evgeny_sec
