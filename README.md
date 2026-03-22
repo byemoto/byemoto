@@ -4,9 +4,9 @@
 
 ## Чем занимаюсь
 
-**Detection Engineering** — пробую писать правила для SIEM систем (Sigma, MaxPatrol, R-Vision). Разбираю реальные техники атак, анализирую артефакты в логах, конвертирую в detection rules. Часть материала с HTB машин.
-
 **DevSecOps** — выстроил стенд на VPS: 23 контейнера, CI/CD pipeline с SAST/DAST/SCA сканированием, vulnerability management, WAF, IPS, SSO, runtime security и AI-анализом результатов через Claude API. Покрытие OWASP Top 10: 6/10 covered, 4/10 partial, 0 gaps.
+
+**Detection Engineering** — пробую писать правила для SIEM систем (Sigma, MaxPatrol, R-Vision). Разбираю реальные техники атак, анализирую артефакты в логах, конвертирую в detection rules. Часть материала с HTB машин.
 
 **HackTheBox** — прохожу машины с упором на Blue Team: какие следы остаются в логах, какие IOC можно вытащить, как задетектировать. Разборы конвертирую в detection rules.
 
