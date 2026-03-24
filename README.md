@@ -6,9 +6,9 @@
 
 **DevSecOps** — построил стенд на VPS: 23 контейнера, CI/CD pipeline с SAST/DAST/SCA/SBOM сканированием, vulnerability management, WAF, IPS, SSO, runtime security и AI-анализом результатов через Claude API. Покрытие OWASP Top 10: 7/10 covered, 3/10 partial.
 
-**Detection Engineering** — пишу правила для SIEM систем (Sigma, MaxPatrol, R-Vision). Разбираю реальные техники атак, анализирую артефакты в логах, конвертирую в detection rules. Часть материала с HTB машин.
+**Detection Engineering** — небольшой пополняющийся сборник правил для SIEM систем (Sigma, MaxPatrol, R-Vision). Разбираю реальные техники атак, анализирую артефакты в логах, конвертирую в detection rules. Часть материала с HTB машин.
 
-**HackTheBox** — прохожу машины с упором на Blue Team: какие следы остаются в логах, какие IOC можно вытащить, как задетектировать. Разборы конвертирую в detection rules.
+**HackTheBox** — пробую прохождение машин с упором на Blue Team. Разборы конвертирую в detection rules.
 
 ## Репозитории
 
